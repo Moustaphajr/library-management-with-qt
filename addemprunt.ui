@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AddEmprunt</class>
+ <widget class="QDialog" name="AddEmprunt">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>520</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>19</x>
+     <y>49</y>
+     <width>481</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="identifiantDuMembreLabel">
+      <property name="text">
+       <string>Identifiant du membre</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="identifiantDuMembreLineEdit"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="identifantDuLivreLabel">
+      <property name="text">
+       <string>Identifant du Livre</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="identifantDuLivreLineEdit"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="dateDEmpruntLabel">
+      <property name="text">
+       <string>Date d'emprunt</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="dateDEmpruntLineEdit"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="dateDeRetourPrVueLabel">
+      <property name="text">
+       <string>Date de retour prévue</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="dateDeRetourPrVueLineEdit"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="dateDeRetourRElleLabel">
+      <property name="text">
+       <string>Date de retour réelle</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="dateDeRetourRElleLineEdit"/>
+    </item>
+    <item row="5" column="1">
+     <widget class="QPushButton" name="pushButton">
+      <property name="text">
+       <string>Enregistrer</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
